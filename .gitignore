@@ -1,0 +1,51 @@
+# ==========================================
+# IGNORAR TODO
+# ==========================================
+
+*
+
+# ==========================================
+# PERMITIR GITIGNORE
+# ==========================================
+
+!.gitignore
+
+# ==========================================
+# PERMITIR README Y MARKDOWN
+# ==========================================
+
+!*.md
+!README*
+
+# ==========================================
+# PERMITIR ESTRUCTURA DE CARPETAS
+# ==========================================
+
+!Assets/
+!Assets/Scripts/
+
+# ==========================================
+# PERMITIR TODOS LOS SCRIPTS
+# ==========================================
+
+!Assets/Scripts/**
+!Assets/Scripts/**/*.cs
+!Assets/Scripts/**/*.shader
+!Assets/Scripts/**/*.compute
+
+# ==========================================
+# OPCIONAL: PERMITIR META FILES
+# (RECOMENDADO PARA UNITY)
+# ==========================================
+
+!Assets/Scripts/**/*.meta
+
+# ==========================================
+# IGNORAR TODO LO DEMÁS DENTRO DE ASSETS
+# ==========================================
+
+Assets/*
+!Assets/Scripts/
+
+Assets/Scripts/*
+!Assets/Scripts/**
